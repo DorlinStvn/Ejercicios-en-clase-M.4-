@@ -52,7 +52,7 @@ public class Main {
         sc.close();
     }
 
-    // ================= EJERCICIO 1 =================
+
     static void ejercicioCuenta() {
         CuentaBancaria cuenta = new CuentaBancaria("001-ABC", 1000);
 
@@ -62,7 +62,7 @@ public class Main {
         System.out.println("Saldo final: " + cuenta.getSaldo());
     }
 
-    // ================= EJERCICIO 2 =================
+
     static void ejercicioEmpleados() {
         Empleado emp1 = new EmpleadoFijo("Carlos", 30000);
         Empleado emp2 = new EmpleadoPorHora("Ana", 160, 250);
@@ -71,7 +71,7 @@ public class Main {
         System.out.println("Salario Ana: " + emp2.calcularSalario());
     }
 
-    // ================= EJERCICIO 3 =================
+
     static void ejercicioOcultamiento() {
         claseA obj = new claseB();
         System.out.println("Valor de x: " + obj.x);

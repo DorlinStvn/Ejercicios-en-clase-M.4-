@@ -45,7 +45,6 @@ public class Main {
                 case 3 -> ejercicioOcultamiento();
                 case 4 -> Arrays.ejecucion();
                 case 0 -> System.out.println("Saliendo del programa...");
-                default -> System.out.println("Opción inválida");
             }
 
         } while (opcion != 0);
@@ -74,7 +73,7 @@ public class Main {
 
     // ================= EJERCICIO 3 =================
     static void ejercicioOcultamiento() {
-        A obj = new B();
+        claseA obj = new claseB();
         System.out.println("Valor de x: " + obj.x);
 
     }

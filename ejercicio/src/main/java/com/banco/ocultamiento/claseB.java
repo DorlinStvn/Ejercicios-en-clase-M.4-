@@ -1,5 +1,5 @@
 package com.banco.ocultamiento;
 
-public class B {
+public class claseB {
     public int x = 10;
 }

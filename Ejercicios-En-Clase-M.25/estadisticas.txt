@@ -1,0 +1,17 @@
+====================================
+Reporte de Procesamiento de Archivos
+====================================
+
+Archivo: C:\Users\dorli\OneDrive\Documentos\Programacion3\Ejercicios en clase M.4\Ejercicios-En-Clase-M.25/Texto1.txt
+Palabras encontradas: 0
+
+Archivo: C:\Users\dorli\OneDrive\Documentos\Programacion3\Ejercicios en clase M.4\Ejercicios-En-Clase-M.25/Texto3.txt
+Palabras encontradas: 0
+
+Archivo: C:\Users\dorli\OneDrive\Documentos\Programacion3\Ejercicios en clase M.4\Ejercicios-En-Clase-M.25/Texto2.txt
+Palabras encontradas: 0
+
+----------------------------------------
+Total de palabras procesadas: 0
+Tiempo de procesamiento: 45 ms
+========================================

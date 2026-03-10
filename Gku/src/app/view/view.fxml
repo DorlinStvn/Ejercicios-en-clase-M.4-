@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" alignment="CENTER"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="app.controller.MainController">
+
+    <Label text="Registro de Personajes Z" />
+
+    <GridPane hgap="10" vgap="10">
+
+        <Label text="Nombre:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtNombre" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+        <Label text="Raza:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+        <ComboBox fx:id="cbRaza" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+        <Label text="Poder:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtPoder" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+        <Label text="Planeta:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtPlaneta" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+        <Label text="Técnica:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtTecnica" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+
+        <Label text="Edad:" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+        <TextField fx:id="txtEdad" GridPane.rowIndex="5" GridPane.columnIndex="1"/>
+
+    </GridPane>
+
+    <Button text="Agregar" onAction="#agregarPersonaje"/>
+
+    <Label text="PERSONAJES REGISTRADOS"/>
+
+    <GridPane fx:id="gridPersonajes" hgap="15" vgap="5">
+
+        <Label text="Nombre" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+        <Label text="Raza" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+        <Label text="Poder" GridPane.columnIndex="2" GridPane.rowIndex="0"/>
+        <Label text="Planeta" GridPane.columnIndex="3" GridPane.rowIndex="0"/>
+        <Label text="Técnica" GridPane.columnIndex="4" GridPane.rowIndex="0"/>
+        <Label text="Edad" GridPane.columnIndex="5" GridPane.rowIndex="0"/>
+
+    </GridPane>
+
+</VBox>
